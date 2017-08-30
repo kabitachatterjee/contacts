@@ -8,7 +8,6 @@ import { Route } from 'react-router-dom';
 
 class App extends Component {
   state = {
-    screen: 'list',
     contacts: []
   }
   componentDidMount() {
