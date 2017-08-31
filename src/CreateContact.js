@@ -19,12 +19,12 @@ class CreateContact extends Component {
       <Link className='close-create-contact' to='/'>Close</Link>
       <form onSubmit={this.handleSubmit} className='create-contact-form'>
       <ImageInput className='create-contact-avatar-input'
-       type='avatarURL' maxHeight={64} />
+       type='avatarURL' name='avatarURL' maxHeight={64} />
 
       <div className='create-contact-details'>
         <input type='text' name='name' placeholder='Name'/>
         <input type='text' name='email' placeholder='abc@example.com' />
-        <button type='submit'>Add Contact</button>
+        <button>Add Contact</button>
       </div>
       </form>
       </div>

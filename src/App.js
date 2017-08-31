@@ -18,10 +18,12 @@ class App extends Component {
     })
   }
   createContact(contact) {
+    console.log(contact)
     ContactsAPI.create(contact).then(contact => {
       this.setState(state => ({
         contacts: state.contacts.concat([ contact ])
       }))
+      console.log(this.state.contacts)
     })
   }
 

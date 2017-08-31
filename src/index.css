@@ -112,7 +112,7 @@ body, .app {
 
 .showing-contacts {
   text-align: center;
-  margin: 20px 0;
+  margin: 20px 1px;
 }
 .showing-contacts button {
   color: blue;
@@ -149,7 +149,7 @@ body, .app {
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 50%;
-  flex-shrink: 0;
+  flex-shrink: 1;
 }
 
 .contact-details {
